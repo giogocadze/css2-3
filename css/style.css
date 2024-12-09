@@ -145,7 +145,8 @@ ol {
 }
 
 #informationcontainer {
-    width: 1221px;
+    max-width: 1221px;
+    width: 100%;
     border-radius: 16px;
     background: #F7F4FF;
     padding: 32px;
@@ -159,13 +160,12 @@ ol {
     background: #FFF;
     border-radius: 16px;
     padding: 20px;
-    +
+    margin-right: 45px;
+    vertical-align: middle;
+    display: inline-block;
 
 }
 
-#location {
-    text-align: left;
-}
 
 #pin {
     width: 56px;
@@ -198,13 +198,13 @@ ol {
 
 #information {
     display: inline-block;
-    vertical-align: middle;
+   
     margin-left: 16px;
 }
 
 #emailInfrmation {
     display: inline-block;
-    vertical-align: middle;
+    
     margin-left: 16px;
 
 }
@@ -220,7 +220,7 @@ ol {
     font-weight: 700;
     line-height: normal;
     display: inline-block;
-    vertical-align: middle;
+
 
 }
 
@@ -235,7 +235,6 @@ ol {
 
 #phoneInformation {
     display: inline-block;
-    vertical-align: middle;
     margin-left: 16px;
 
 }
@@ -251,7 +250,7 @@ ol {
     font-weight: 700;
     line-height: normal;
     display: inline-block;
-    vertical-align: middle;
+ 
 
 
 }
@@ -265,5 +264,8 @@ ol {
     margin-top: 6px;
 }
 #dd {
-    
+display: inline-block;
+vertical-align: middle;
+width: 500px;
+height: 474px;
 }
